@@ -10,7 +10,6 @@ Organizar los documentos, el diseño y los indicadores del proyecto para apoyar 
 
 ```
 tablero-metrobahia/
-├── README.md
 ├── Proyecto_BI_Grupo3_Momento1.pdf
 ├── Formulas_indicadores.pdf
 └── docs/
