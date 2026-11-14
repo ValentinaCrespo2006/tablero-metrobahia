@@ -24,10 +24,4 @@ tablero-metrobahia/
 - **Indicadores:** definición y fórmulas de los indicadores.
 - **Diseño:** boceto del tablero.
 
-## Equipo
 
-Completar los nombres, códigos, correos y usuarios de GitHub de los cinco integrantes en el documento del proyecto.
-
-## Nota sobre los aportes
-
-Cada integrante debe realizar al menos un commit desde su propia cuenta para que quede registrado su aporte individual. Los commits realizados por otra persona no sustituyen ese requisito.
