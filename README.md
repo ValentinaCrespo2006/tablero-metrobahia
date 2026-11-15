@@ -18,7 +18,7 @@ Mantener organizada la información del proyecto, facilitar el trabajo colaborat
 | Ingeniero de datos | Erick Mendoza | 92410179 | Erick.mendoza2@uac.edu.co | [Erick0078](https://github.com/Erick0078) |
 | Diseñador de la lógica | Gustavo Tapias | 924101189 | Gustavo.tapias@uac.edu.co | [gustavo031876](https://github.com/gustavo031876) |
 | Desarrollador de pantallas | David Ospino | 92320019 | david.ospino@uac.edu.co | [DavidOspino2005](https://github.com/DavidOspino2005) |
-| Responsable de calidad y despliegue | Valentin Crespo | 102410091 | valentina.crespo@uac.edu.co | [ValentinaCrespo2006](https://github.com/ValentinaCrespo2006) |
+| Responsable de calidad y despliegue | Valentina Crespo | 102410091 | valentina.crespo@uac.edu.co | [ValentinaCrespo2006](https://github.com/ValentinaCrespo2006) |
 
 ### Responsabilidades por integrante
 
@@ -26,7 +26,7 @@ Mantener organizada la información del proyecto, facilitar el trabajo colaborat
 - **Erick Mendoza – Ingeniero de datos:** diseña la base de datos y programa la carga de los archivos: lectura, revisión fila por fila, rechazo y registro.
 - **Gustavo Tapias – Diseñador de la lógica:** programa el cálculo de los indicadores y semáforos, los filtros, el inicio de sesión y los perfiles.
 - **David Ospino – Desarrollador de pantallas:** diseña y programa las pantallas, las gráficas, el detalle con clic y la versión para celular.
-- **Valentin Crespo – Responsable de calidad y despliegue:** programa las pruebas automáticas, cuida el repositorio y las publicaciones, y lleva el registro de decisiones.
+- **Valentina Crespo – Responsable de calidad y despliegue:** programa las pruebas automáticas, cuida el repositorio y las publicaciones, y lleva el registro de decisiones.
 
 ## Estructura del repositorio
 
