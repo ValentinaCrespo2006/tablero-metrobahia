@@ -14,7 +14,7 @@ Mantener organizada la información del proyecto, facilitar el trabajo colaborat
 
 | Rol | Nombre | Código | Correo institucional | Usuario de GitHub |
 |---|---|---|---|---|
-| Líder del proyecto y analista de negocio | Dionisio Ortega | 93320092 | dionisio.ortega@uac.edu.co | [dionisioortega00](https://github.com/dionisioortega00) |
+| Líder del proyecto y analista de negocio | Dionisio Ortega |92320092| dionisio.ortega@uac.edu.co | [dionisioortega00](https://github.com/dionisioortega00) |
 | Ingeniero de datos | Erick Mendoza | 92410179 | Erick.mendoza2@uac.edu.co | [Erick0078](https://github.com/Erick0078) |
 | Diseñador de la lógica | Gustavo Tapias | 924101189 | Gustavo.tapias@uac.edu.co | [gustavo031876](https://github.com/gustavo031876) |
 | Desarrollador de pantallas | David Ospino | 92320019 | david.ospino@uac.edu.co | [DavidOspino2005](https://github.com/DavidOspino2005) |
