@@ -1,0 +1,22 @@
+METROBAHÍA — GRUPO 3 | MOMENTO 2
+REGISTRO DE PRUEBAS AUTOMÁTICAS
+
+Ejecución local verificada mediante captura de Visual Studio Code:
+Fecha: 28/11/2026, aproximadamente 00:47 (Colombia).
+Entorno: Windows, Python 3.13.7, pytest 9.2.0, Dash 4.5.2.
+Comando: .\.venv\Scripts\python.exe -m pytest -v
+
+Transcripción de los resultados visibles:
+collected 4 items
+tests/test_carga.py::test_fecha_vacia PASSED [25%]
+tests/test_carga.py::test_numero_negativo PASSED [50%]
+tests/test_carga.py::test_coma_decimal PASSED [75%]
+tests/test_carga.py::test_balance PASSED [100%]
+4 passed in 7.49s
+
+Resultado: 4 aprobadas de 4 ejecutadas; supera el mínimo de dos pruebas.
+Alcance: validación y prevalidación de datos. No son pruebas automáticas de integración de PostgreSQL o Dash.
+
+Registro previo conservado (ejecución inicial):
+....                                                                     [100%]
+4 passed in 3.87s
