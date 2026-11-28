@@ -1,0 +1,6 @@
+SELECT 100.0*sum(despachos_realizados)/NULLIF(sum(despachos_programados),0) AS cumplimiento FROM despachos;
+SELECT count(*)::numeric/NULLIF(count(DISTINCT fecha_hora::date),0) AS validaciones_dia_habil FROM validaciones WHERE extract(isodow from fecha_hora)<=5;
+WITH meses AS (SELECT date_trunc('month',fecha_hora) mes,sum(valor_pasaje) ingreso FROM validaciones GROUP BY 1), anterior AS (SELECT *,lag(ingreso) OVER(ORDER BY mes) previo FROM meses) SELECT mes,ingreso,100*(ingreso-previo)/NULLIF(previo,0) crecimiento FROM anterior;
+SELECT sum(despachos_programados-despachos_realizados)::numeric/NULLIF(max(fecha)-min(fecha)+1,0) deficit_diario FROM despachos;
+SELECT 100.0*count(*) FILTER(WHERE tipo_tarjeta IN ('Estudiante','Adulto mayor'))/NULLIF(count(*),0) tarifa_reducida FROM validaciones;
+WITH demanda AS (SELECT e.ruta,f.franja,count(*) cantidad FROM validaciones v JOIN estaciones e USING(cod_estacion) JOIN franjas f ON v.fecha_hora::time>=f.hora_inicio AND v.fecha_hora::time<f.hora_fin WHERE hora_conocida GROUP BY 1,2), oferta AS (SELECT cod_ruta,franja,sum(despachos_realizados) realizados FROM despachos GROUP BY 1,2) SELECT d.ruta,d.franja,cantidad,cantidad::numeric/NULLIF(realizados,0) presion FROM demanda d JOIN oferta o ON d.ruta=o.cod_ruta AND d.franja=o.franja;
