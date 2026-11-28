@@ -195,6 +195,5 @@ Evidencia: [registro de pruebas](docs/pruebas_locales.txt).
 ## Entregables
 
 - Momento 1: documento, fórmulas, diagrama entidad-relación y boceto del tablero.
-- Momento 2: documento acumulativo en PDF para EXIA, código fuente, archivos originales, pruebas, evidencia real de carga y referencia del último commit.
-- El documento acumulativo se entrega primero en EXIA y se publica posteriormente en GitHub. Los archivos de código, configuración, pruebas y evidencias del Momento 2 están publicados.
-- Alcance técnico: la ejecución se verificó en un equipo local; la reproducción en otro equipo y la validación integral de despliegue son comprobaciones adicionales. Las vistas de trazabilidad se implementaron sobre las tablas `cargas` y `rechazos`; la guía denomina `archivo_carga` y `fila_rechazada` a las tablas solicitadas. La incidencia de recargas queda registrada en la sección de resultados.
+- Momento 2: documento en PDF para EXIA, código fuente, archivos originales, pruebas, evidencia real de carga y referencia del último commit.
+
