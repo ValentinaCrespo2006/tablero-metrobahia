@@ -1,0 +1,5 @@
+openpyxl
+psycopg2-binary
+python-dotenv
+dash
+pytest
